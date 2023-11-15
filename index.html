@@ -7,16 +7,35 @@
     <title>Weather App</title>
 </head>
 <body>
+    <h1>Upcoming Weather 🌤</h1>
     <main>
-        <h1>Upcoming Weather 🌤</h1>
-        <ul id="weather-output">
+        <div class="city-language">
+
+            <label for="city-select">Select a city:</label>
+        <select id="city-select">
+            <option value="Liege">Liege</option>
+            <option value="Brussels">Brussels</option>
+            <option value="Antwerp">Antwerp</option>
+            <option value="Ostend">Ostend</option>
+            <option value="Namur">Namur</option>
+            <option value="Gent">Gent</option>
+            <option value="Brugge">Brugge</option>
+            <option value="Eupen">Eupen</option>
+            <option value="Leuven">Leuven</option>
+            <option value="Luxembourg">Luxembourg</option>
+        </select>
+        <label for="language-select">Select a language:</label>
+        <select id="language-select">
             
-        </ul>
+            <option value="fr">Fr</option>
+            <option value="en">En</option>
+            <option value="de">De</option>
+            <option value="nl">Nl</option>
+        </select>
+        </div>
+    <ul id="weather-output"></ul>
     </main>
-    <!-- <template id="weather-template">
-        <li></li>
-    
-    </template> -->
+   
    
    
 </body>

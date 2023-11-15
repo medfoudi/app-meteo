@@ -1,9 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(https://i.pinimg.com/736x/1f/4a/d9/1f4ad9b6fef3e5eb47d3bc7b61549e08.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(64, 195, 207);
+    /* background-image: url(https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat: no-repeat; */
 }
+
 
 h1 {
     text-align: center;
@@ -23,13 +25,14 @@ ul {
 li {
     margin: 0 auto;
     padding: 20px;
-    /* border: 2px solid #ef3208; */
     border-radius: 5px;
-    width: 20%;
+    min-width: 400px;
+    max-width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+   
 
 }
 li img{
@@ -39,4 +42,29 @@ li img{
 li p{
     margin: 10px;
     font-size: 20px;
+}
+.city-language{
+    width:70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+#city-select{
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+#language-select{
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+label{
+    font-weight:bold ;
 }
